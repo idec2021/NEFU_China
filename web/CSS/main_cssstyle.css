@@ -4,26 +4,31 @@
 * Autoprefixer: v9.7.6
 * Browsers: last 4 versions
 */
-
+/* 新新新新新新新新新新新新新新新新新新新新新新新新新新新新新新新新新新新新新新新新新新新新新新 */
 /*Global styles */
 .main-body-content p{
   text-indent: 2em;
   line-height: 1.5;
+  font-family: "Source Han Sans CN";
 }
 *, p, h1, h2, h3, ul, ol {
     margin: 0;
     padding: 0;
   }
-
+  
   @font-face {
-    font-family: 'Centrale Sans Regular';
-    src: url(https://2020.igem.org/wiki/images/5/5e/T--Leiden--CentraleSansRegular.eot);
-    src: url(https://2020.igem.org/wiki/images/5/5e/T--Leiden--CentraleSansRegular.eot?#iefix) format('embedded-opentype'),
-    url(https://2020.igem.org/wiki/images/9/97/T--Leiden--CentraleSansRegular.woff) format('woff'),
-    url(https://2020.igem.org/wiki/images/1/1b/T--Leiden--CentraleSansRegular.ttf) format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    }
+    font-family: geometos;
+    src: url(../resources/Fonts/geometos.woff.ttf) format("truetype");
+  }
+  @font-face {
+    font-family: TitilliumWeb-Black;
+    src: url(../resources/Fonts/TitilliumWeb-Black.ttf) format("truetype");
+  }
+  @font-face {
+    font-family: Source-Han-Sans-CN;
+    src: url(../resources/Fonts/Source Han Sans CN.ttf) format("truetype");
+  }
+  
 ul {
   list-style-type:none;
   list-style-image: none;
@@ -457,7 +462,6 @@ input:checked+.switch-slider:before {
 }
 
 .home{
-  /*background-image: url(https://2020.igem.org/wiki/images/0/09/T--Leiden--BackgroundContinuous1.png);*/
   background-repeat: repeat;
   background-size: 1200px;
 }
@@ -1103,6 +1107,8 @@ a:visited.chapter-nav  {
   font-size: 4em;
   font-weight: normal;
   text-align: center;
+  font-family: "TitilliumWeb-Black";
+  /*小标题*/
 }
 
 /**************** Introduction **********************/
@@ -1367,6 +1373,8 @@ a.main-nav-link.active {
   padding: 0.5em 0 0.5em 0;
   color: #FE9901;
   scroll-margin-top: 79px;
+  font-family: "geometos"
+  /*大标题*/
 }
 
 .main-body h3 {
