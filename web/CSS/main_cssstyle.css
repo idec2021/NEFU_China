@@ -4,7 +4,7 @@
 * Autoprefixer: v9.7.6
 * Browsers: last 4 versions
 */
-/* 新新新新新新新新新新新新新新新新新新新新新新新新新新新新新新新新新新新新新新新新新新新新新新 */
+
 /*Global styles */
 .main-body-content p{
   text-indent: 2em;
@@ -36,7 +36,7 @@ ul {
 body {
   background-color: #fff;
   font-family:  "Source Han Sans CN";
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: normal;
   /* 正文字体 */
 } 
@@ -1918,7 +1918,7 @@ a.single-button:hover, a.single-button:active{
 }
 
 .box {
-  width: 30%;
+  width: 20%;
   text-align: justify;
 }
 
